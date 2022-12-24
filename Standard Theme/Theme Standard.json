@@ -1,0 +1,135 @@
+{
+	"name": "Theme Standard",
+	"dataColors":[
+        "#FFAC00",
+        "#E87200",
+        "#E13102",
+        "#FF3838",
+        "#FB0362",
+        "#EF008C",        
+        "#1E88E5",
+        "#2F8AC3",
+        "#2EC4B6",
+        "#D3D3D3",
+        "#065A60",
+        "#35E8A4",
+        "#5E465E",
+        "#0B5D1E",
+        "#26B0D2"
+	],
+	"tableAccent":"#000000",
+    "maximum": "#A8DFED",
+    "center": "#26B0D2",
+    "minimum": "#135869",
+	"null": "#FFFFFF",
+	"visualStyles": {
+		"paretoEDD8E69761BA4B7BB3AA6D813990D7BF": {
+			"*": {
+				"general": [{ "responsive": true }],
+                "title": [{
+                    "show": false,
+                    "fontColor": { "solid": { "color": "#000000" } },
+                    "background": { "solid": { "color": "#FFFFFF" } },
+                    "alignment": "center",
+                    "fontSize": 14,
+                    "fontFamily": "Segoe UI Semibold"
+                }],
+				"visualHeader": [{
+					"show": false,
+                    "foreground": { "solid": { "color": "#000000" } },
+                    "border": { "solid": { "color": "#FFFFFF" } },
+					"background": { "solid": { "color": "#FFFFFF"}},
+					"transparency": "20D",
+					"showVisualInformationButton": false,
+					"showVisualWarningButton": false,
+					"showVisualErrorButton": false,
+					"showDrillRoleSelector": false,
+					"showDrillUpButton": false,
+					"showDrillToggleButton": false,
+					"showDrillDownLevelButton": false,
+					"showDrillDownExpandButton": false,
+					"showPinButton": false,
+					"showFocusModeButton": false,
+					"showFilterRestatementButton": false,
+					"showSeeDataLayoutToggleButton": false,
+					"showOptionsMenu": false,
+					"showTooltipButton": false
+				}],
+				"arc": [{
+					"fontSize": 10,
+					"isBold": false
+				}],
+				"yLeft": [{
+					"fontSize": 12,
+					"isItalic": true
+				}],
+				"yRight": [{
+					"fontSize": 12,
+					"isItalic": true
+				}],
+				"bar": [{
+					"barSpacing": "1",
+					"showBarColor": true
+				}],
+				"category": [{
+					"rotate": true,
+					"degrees": 25
+				}],
+				"value": [{
+					"textColor": { "solid": { "color": "#FFFFFF"}},
+					"fontSize": 12,
+					"valuePlacement": "2",
+					"adjustPlacement": 20
+				}],
+				"theme": [{
+					"outerMargin": "Wide",
+					"fontfamily": "Segoe UI",
+					"locale": "en-US"
+				}]
+			}
+		},
+		"page": {
+			"*": {
+                "background": [{
+                    "color": { "solid": { "color": "#FFFFFF" } },		    
+                    "transparency": 0
+                }],
+                "outspace": [{
+                    "color": { "solid": { "color": "#FFFFFF" } },                     
+                    "transparency": 0
+                }],
+                "outspacePane": [{
+                    "backgroundColor": { "solid": { "color": "#F3F2F1" } },
+                    "foregroundColor": { "solid": { "color": "#000000" } },
+					"inputBoxColor": { "solid": { "color": "#ffffff" } },
+                    "transparency": 0,
+                    "titleSize": 10,
+                    "headerSize": 8,
+                    "fontFamily": "Segoe UI",
+                    "border": true,
+					"borderColor": { "solid": { "color": "#C8C8C8" } }
+                }],
+				"filterCard": [
+					{
+						"$id": "Applied",
+						"backgroundColor": { "solid": { "color": "#FFFFFF" } },
+						"foregroundColor": { "solid": { "color": "#000000" } },
+						"inputBoxColor": { "solid": { "color": "#FFFFFF" } },
+						"fontFamily": "Segoe UI",
+						"textSize": 8,
+						"transparency": 0
+					},
+					{
+						"$id": "Available",
+						"backgroundColor": { "solid": { "color": "#FFFFFF" } },
+						"foregroundColor": { "solid": { "color": "#000000" } },
+						"inputBoxColor": { "solid": { "color": "#FFFFFF" } },
+						"fontFamily": "Segoe UI",
+						"textSize": 8,
+						"transparency": 0
+					}
+				]
+        	}
+		}
+	}
+}
