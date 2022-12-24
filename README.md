@@ -1,5 +1,4 @@
-# Power-BI-Examples
-Power BI Examples
+# Power BI Examples
 
-## Filter by Week ##
+** Filter by Week **
 
