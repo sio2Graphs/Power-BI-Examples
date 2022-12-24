@@ -3,4 +3,4 @@ Please visit https://sio2graphs.com/about/ to add your email for updates on sio2
 
 ### Filter by Week ###
 ### Standard Theme ###
-* Download the files in the above folder with the same name.
+* Download the files from the folder with the same name.
