@@ -1,5 +1,5 @@
 # Power BI Examples
-Please visit https://sio2graphs.com/about/ to add your email for updates on sio2Graphs' visuals available at https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals&search=sio2graphs.
+Please visit https://sio2graphs.com/about/ to add your email for updates on sio2Graphs' visuals available at [https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals&search=sio2graphs]:Microsft.
 
 ### Filter by Week ###
 ### Standard Theme ###
