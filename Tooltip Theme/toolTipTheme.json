@@ -1,0 +1,40 @@
+Replace "Add GUID or *" with a Custom Visual GUID or an *.  Using an * will affect all visuals
+Replace "Add Objects" with your own objects for a Custom Visual or delete this section.
+
+{
+	"name": "toolTip Theme",
+	"visualStyles": {
+		"Add GUID or *": {
+			"*": {
+				"general": [{ "responsive": true }],
+                "title": [{
+                    "show": false,
+                    "fontColor": { "solid": { "color": "#000000" } },
+                    "background": { "solid": { "color": "#FFFFFF" } },
+                    "alignment": "center",
+                    "fontSize": 14,
+                    "fontFamily": "Segoe UI Semibold"
+                }],
+				"visualTooltip": [{
+            "themedTitleFontColor": { "solid": { "color": "#000000" } }, 
+					  "themedValueFontColor": { "solid": { "color": "#000000" } }, 
+					  "themedBackground": { "solid": { "color": "#FFFFFF" } },
+					  "actionFontColor": { "solid": { "color": "#317D3A" } } 
+                         
+				}],
+				"Add Objects": [{
+					"fontSize": 10,
+					"isBold": false
+				}]
+			}
+		},
+		"page": {
+			"*": {
+                "background": [{
+                    "color": { "solid": { "color": "#FFFFFF" } },		    
+                    "transparency": 0
+                }]
+        	}
+		}
+	}
+}
