@@ -10,3 +10,4 @@ api 5.2 Custom Visual Implementation Components (ESLint, new FormattingModel, co
 Visual display was set up to illustrate implementation.  It is neither dynamic nor exact to the framing.
 
 * Standard Theme
+* Tooltip Theme
