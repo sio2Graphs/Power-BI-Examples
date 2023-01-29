@@ -1,0 +1,24 @@
+{
+    "visual": {
+        "name": "example",
+        "displayName": "examples",
+        "guid": "example282EF86782F541F6A252F4EB63D889B0",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Examples",
+        "supportUrl": "https://sio2graphs.com/"
+    },
+    "apiVersion": "5.2.0",
+    "author": {
+        "name": "sio2Graphs",
+        "email": "cynthia@sio2graphs.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": [],
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

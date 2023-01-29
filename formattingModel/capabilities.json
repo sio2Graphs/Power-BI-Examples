@@ -1,0 +1,79 @@
+{ 
+  "supportsHighlight": true,
+  "supportsMultiVisualSelection": true,
+  "supportsKeyboardFocus": true,
+  "advancedEditModeSupport": 0,
+  "suppressDefaultTitle": true,
+  "supportsLandingPage": true,
+  "supportsEmptyDataView": true,
+  "privileges": [{
+    "name": "ExportContent",
+    "essential": true
+  }],
+  "dataRoles": [
+    {
+      "displayName": "Categories",
+      "description": "Drag and drop a column into the Category Data well.  Visit sio2graphs.com and subscribe for updates.",
+      "name": "categories",
+      "kind": "Grouping",
+      "requiredTypes": [
+        {
+          "text": true
+        },
+        {
+          "numeric": true
+        },
+        {
+          "integer": true
+        }
+      ],
+      "preferredTypes": [
+        {
+          "text": true
+        }
+      ]
+    },
+    {
+      "displayName": "Values",
+      "description": "Drag and drop a numeric column into the Value Data well.  Visit sio2graphs.com and subscribe for updates.",
+      "name": "values",
+      "kind": "Measure",
+      "requiredTypes": [
+        {
+          "numeric": true
+        },
+        {
+          "integer": true
+        }
+      ]
+    }],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        { "categories": { "max": 1  }, "values": { "max": 1 } }
+      ],
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "categories"
+          },
+          "dataReductionAlgorithm": {
+            "top": {}
+          }
+        },
+        "values": {
+              "select":[
+               { "bind": { "to": "values" } }
+          ]
+        }
+        }
+      }
+  ],
+  "objects": {
+    "bar": {
+      "properties": {
+        "individualSolids":     { "type":  { "fill": { "solid": { "color": true } }}}
+      }
+    }
+  }
+}
