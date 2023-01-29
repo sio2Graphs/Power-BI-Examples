@@ -5,7 +5,7 @@ Visuals available at [Microsoft | AppSource](https://appsource.microsoft.com/en-
 Download the files from the folder with the same name.
 
 * api 5.2 Custom Visual Implementation Components (ESLint, new FormattingModel, contextMenu, interactivity, individual colors)
-visual display was set up to illustrate implementation.  It is not neither dynamic nor exact to the frame.
+visual display was set up to illustrate implementation.  It is neither dynamic nor exact to the framing.
 
 * Filter by Week
 * Standard Theme
