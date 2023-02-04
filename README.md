@@ -4,10 +4,17 @@ Visuals available at [Microsoft | AppSource](https://appsource.microsoft.com/en-
 
 Download the files from the folder with the same name.
 
-* Filter by Week  
-* new formattingModel   
-api 5.2 Custom Visual Implementation Components (ESLint, new FormattingModel, contextMenu, interactivity, individual colors)  
-Visual display was set up to illustrate implementation.  It is neither dynamic nor exact to the framing.
+* Desktop: Display Applied Top N Filter
+* Desktop: Filter by Week  
+* Desktop: Standard Theme
+* Desktop: Tooltip Theme 
+** Custom Visual api 5.2  (Visual display was set up to illustrate implementation.  It is neither dynamic nor exact to the framing.)
+*** ESLint
+*** new FormattingPane
+*** contextMenu  
+*** interactivity
+*** individual colors
 
-* Standard Theme
-* Tooltip Theme
+
+
+
