@@ -8,12 +8,12 @@ Download the files from the folder with the same name.
 * Desktop: Filter by Week  
 * Desktop: Standard Theme
 * Desktop: Tooltip Theme 
-** Custom Visual api 5.2  (Visual display was set up to illustrate implementation.  It is neither dynamic nor exact to the framing.)
-*** ESLint
-*** new FormattingPane
-*** contextMenu  
-*** interactivity
-*** individual colors
+* Custom Visual api 5.2  (Visual display was set up to illustrate implementation.  It is neither dynamic nor exact to the framing.)  
+*** ESLint  
+*** new FormattingPane  
+*** contextMenu    
+*** interactivity  
+*** individual colors  
 
 
 
